@@ -3,7 +3,7 @@ function task1() {
   document.querySelector("code");
   //target DIV//
   let target = document.querySelector("#text-content")
-  console.log(target)
+  console.log("target")
   //set innertext to something new//
 target.innerText = "something new"
 }
@@ -19,3 +19,12 @@ function task3() {
   console.log("Running task 3");
 }
 
+let inverted = false;
+function task2() {
+  let button = document.querySelector(`#Bly`);
+  let html = document.querySelector(`html`);
+console.log("Polish word")
+  html.classList.toggle("inverted");
+
+  inverted = !inverted;
+}
