@@ -13,12 +13,6 @@ function task2() {
   console.log("Running task 2");
   
 }
-
-// Write your task 3 code inside this function!
-function task3() {
-  console.log("Running task 3");
-}
-
 let inverted = false;
 function task2() {
   let button = document.querySelector(`#Bly`);
@@ -28,3 +22,10 @@ console.log("Polish word")
 
   inverted = !inverted;
 }
+
+// Write your task 3 code inside this function!
+function task3() {
+  console.log("Running task 3");
+}
+
+
