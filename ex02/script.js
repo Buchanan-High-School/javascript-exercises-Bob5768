@@ -16,7 +16,7 @@ function task2() {
 let inverted = false;
 function task2() {
   let button = document.querySelector(`#Bly`);
-  let html = document.querySelector(`html`);
+  let html = document.querySelector(`#task2`);
 console.log("Polish word")
   html.classList.toggle("inverted");
 
