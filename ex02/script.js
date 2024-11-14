@@ -28,4 +28,9 @@ function task3() {
   console.log("Running task 3");
 }
 
-
+function task3() {
+  var ul = document.getElementById("list");
+  var li = document.createElement("li");
+  li.appendChild(document.createTextNode("New Task"));
+  ul.appendChild(li);
+}
