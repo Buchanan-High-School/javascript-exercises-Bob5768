@@ -24,8 +24,8 @@ element.remove()
 // Write your task 3 code inside this function!
 function task3() {
   console.log("Running task 3");
-  let parent = document.querySelector("#")
-let firstEl = document.querySelector("#")
+  let parent = document.querySelector("#bob")
+let firstEl = document.querySelector("#first")
 
 let newNode = document.createElement(".box.flex")
 newNode.textContent = "preveit"
