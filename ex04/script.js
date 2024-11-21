@@ -1,5 +1,8 @@
 function task1() {
-  let myArray = [];
+  let myArray = ["one",
+    "two",
+    "three",
+    "four"];
   // This will run when you click the button.
   myArray.forEach((item) => {
     let el = document.createElement("p");
