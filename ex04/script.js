@@ -15,10 +15,14 @@ function task1() {
 
 function task2A() {
   // Write your code in here
+ let target = document.querySelector("#color-list")
+ console.log(target)
 }
 
 function task2B() {
   // Writ your code in here
+  innerText='Hi '+ item innerText
+
 }
 
 function task3() {
