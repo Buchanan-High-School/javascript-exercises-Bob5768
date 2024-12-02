@@ -31,5 +31,5 @@ target.forEach(el => {
 
 function task3() {
   // Write your code in here
-
+let target = document.querySelectorAll("#")
 }
